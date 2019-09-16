@@ -13,7 +13,7 @@ Email     | ubychkovskaya20@gmail.com
 
 What is my goal? Speaking about the nearest future, it is to get knowledge in The Rolling Scopes course. ......
 
-## Skills
+### Skills
 
 * C++, HTML, CSS, JavaScript
 * Git
