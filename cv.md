@@ -11,10 +11,37 @@ Email     | ubychkovskaya20@gmail.com
 
 ## Summary
 
-What is my goal? Speaking about the nearest future, it is to get knowledge in The Rolling Scopes course. ......
+Speaking about the nearest future, my goal is to gain knowledge and skills in The Rolling Scopes course. And, as a result, get a good job. I clearly understand, that in the IT sphere, as in the others, you need to work hard to achieve your goal.
 
-### Skills
+A little about myself. From my point of view, I'm easy-going, level-headed and ambitious person :)
+
+## Skills
 
 * C++, HTML, CSS, JavaScript
 * Git
 * Photoshop
+
+## Code Examples
+
+## Experience
+
+## Education
+
+BSUIR (since 2018), The Faculty of Information Technologies and Control.
+
+Department: Information Technologies in Automated Systems.
+
+Have completed the following couses:
+* [HTML Academy](https://htmlacademy.ru/)
+* [CodeAcademy](https://www.codecademy.com/learn)
+
+## English
+
+My English level is B1 - B2.
+I've attended the following courses:
+* [English Tochka](https://englishtochka.ru/)
+* [British Council](https://www.britishcouncil.org/english)
+* [Speaky](https://www.speaky.com/ru/)
+* [Italki](https://www.italki.com/)
+
+Also I often have a language practice with my friends from Ireland and America. 
