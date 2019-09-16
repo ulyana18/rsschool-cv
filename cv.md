@@ -23,7 +23,11 @@ A little about myself. From my point of view, I'm easy-going, level-headed and a
 
 ## Code Examples
 
+I don't have any examples of code, but I hope after this courses I will.
+
 ## Experience
+
+I'm a student now and that's why the only my experience is passing labs in the university. I hope in the future I'll have opportunity to get experience in different projects.
 
 ## Education
 
@@ -38,6 +42,7 @@ Have completed the following couses:
 ## English
 
 My English level is B1 - B2.
+
 I've attended the following courses:
 * [English Tochka](https://englishtochka.ru/)
 * [British Council](https://www.britishcouncil.org/english)
