@@ -1,0 +1,175 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.95em; 
+}
+
+header,
+main,
+footer {
+  width: 70%;
+  max-width: 1024px;
+  background-color: pink;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+body a {
+  text-decoration: none;
+}
+
+header {
+  height: 70px; 
+  background-color: rgb(218, 218, 157);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+header nav li {
+  margin: 0 5px;
+}
+
+header nav h1 a {
+  font-size: 1.7em;
+}
+
+main section {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+main .about-myself {
+  background-color: rgb(205, 170, 209);
+}
+
+main .skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(113, 127, 173);
+}
+
+.skills .skills-container,
+.code-examples .code-examples-container,
+.experience .experience-container,
+.education .education-container,
+.english .english-container {
+    width: 100%;
+    border-bottom: 1px solid #97b7e7;
+    border-top: 1px solid #97b7e7;
+    margin-bottom: 40px;
+}
+
+.skills h2,
+.code-examples h2,
+.experience h2,
+.education h2,
+.english h2 {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+
+.skills .skills-list {
+   text-align: center;
+   margin-top: 5px;
+}
+
+.skills .skills-list li {
+    margin-bottom: 20px;
+    line-height: 2em;
+}
+
+main .code-examples {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(152, 207, 200);
+}
+
+.code-examples p {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  line-height: 2em;
+}
+
+main .experience {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(131, 127, 97);
+}
+
+.experience p {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  line-height: 2em;
+}
+
+main .education {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(190, 129, 111);
+}
+
+.education p, 
+.education ul {
+  text-align: center;
+  line-height: 2em;
+}
+
+.education ul {
+  margin-bottom: 20px;
+}
+
+.education .education-university {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.education .education-courses {
+  margin-top: 35px;
+}
+
+main .english {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(240, 184, 223);
+  padding-bottom: 80px;
+}
+
+.english p,
+.english ul {
+  text-align: center;
+  line-height: 2em;
+}
+
+.english .english-level, 
+.english .english-courses-list {
+  margin-bottom: 35px;
+}
+
+
+footer {
+    height: 70px;
+    background-color: rgb(168, 212, 219);
+}
+
+footer .contacts {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+}
