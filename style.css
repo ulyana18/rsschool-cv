@@ -1,14 +1,16 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Nunito', 'Raleway', sans-serif;
   font-size: 0.95em; 
+  background-image: url("./los-angeles.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-header,
+.header-container,
 main,
-footer {
+.footer-container {
   width: 70%;
   max-width: 1024px;
-  background-color: pink;
   margin: 0 auto;
   padding: 2%;
 }
@@ -18,8 +20,12 @@ body a {
 }
 
 header {
-  height: 70px; 
-  background-color: rgb(218, 218, 157);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 90px; 
+  background-color: hsla(229, 50%, 81%, 0.767);
 }
 
 header nav {
@@ -35,7 +41,7 @@ header nav ul {
 }
 
 header nav li {
-  margin: 0 5px;
+  margin: 0 8px;
 }
 
 header nav h1 a {
@@ -47,8 +53,52 @@ main section {
   padding-bottom: 5%;
 }
 
-main .about-myself {
-  background-color: rgb(205, 170, 209);
+main {
+  margin-top: 90px;
+}
+
+.about-myself .about-myself-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(215, 218, 223);
+}
+
+.about-myself .total-info {
+  width: 52%;
+  margin-right: 20px;
+}
+
+.about-myself h2 {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.about-myself h4 {
+  font-size: 0.9em;
+  font-weight: thin;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about-myself .my-goal h3 {
+  font-size: 1.25em;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.about-myself .my-goal p {
+  line-height: 2em;
+  text-indent: 20px;
+}
+
+.about-myself .my-goal p:last-child {
+  margin-top: 30px;
 }
 
 main .skills {
@@ -56,7 +106,7 @@ main .skills {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(113, 127, 173);
+  background-color: rgb(205, 202, 226);
 }
 
 .skills .skills-container,
@@ -64,10 +114,10 @@ main .skills {
 .experience .experience-container,
 .education .education-container,
 .english .english-container {
-    width: 100%;
-    border-bottom: 1px solid #97b7e7;
-    border-top: 1px solid #97b7e7;
-    margin-bottom: 40px;
+  width: 100%;
+  border-bottom: 2px solid rgb(228, 227, 235);
+  border-top: 2px solid rgb(228, 227, 235);
+  margin-bottom: 40px;
 }
 
 .skills h2,
@@ -83,19 +133,19 @@ main .skills {
 
 
 .skills .skills-list {
-   text-align: center;
-   margin-top: 5px;
+  text-align: center;
+  margin-top: 5px;
 }
 
 .skills .skills-list li {
-    margin-bottom: 20px;
-    line-height: 2em;
+  margin-bottom: 20px;
+  line-height: 2em;
 }
 
 main .code-examples {
   display: flex;
   flex-direction: column;
-  background-color: rgb(152, 207, 200);
+  background-color: rgb(192, 192, 216);
 }
 
 .code-examples p {
@@ -108,20 +158,25 @@ main .code-examples {
 main .experience {
   display: flex;
   flex-direction: column;
-  background-color: rgb(131, 127, 97);
+  background-color: rgb(207, 204, 241);
 }
 
 .experience p {
+  width: 70%;
   text-align: center;
-  margin-top: 5px;
-  margin-bottom: 20px;
+  margin: 5px auto 20px auto;
   line-height: 2em;
 }
 
 main .education {
   display: flex;
   flex-direction: column;
-  background-color: rgb(190, 129, 111);
+  background-color: rgb(232, 222, 243);
+}
+
+.education .education-container {
+  border-bottom: 2px solid rgb(184, 184, 206);
+  border-top: 2px solid rgb(184, 184, 206);
 }
 
 .education p, 
@@ -146,7 +201,7 @@ main .education {
 main .english {
   display: flex;
   flex-direction: column;
-  background-color: rgb(240, 184, 223);
+  background-color: rgb(216, 213, 213);
   padding-bottom: 80px;
 }
 
@@ -163,9 +218,11 @@ main .english {
 
 
 footer {
-    height: 70px;
-    background-color: rgb(168, 212, 219);
+  height: 120px;
+  width: 100%;
+  background-color: rgb(147, 141, 170);
 }
+
 
 footer .contacts {
   display: flex;
