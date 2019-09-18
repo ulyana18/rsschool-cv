@@ -5,39 +5,43 @@
       <title>Resume. Ulyana Bychkovskaya</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
       <link rel="stylesheet" href="style.css">
-      <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Nunito|Raleway&display=swap" rel="stylesheet">
     </head>
     <body>
       <header>
-          <nav>
-              <h1><a href="#about-myself">Ulyana Bychkovskaya</a></h1>
-              <ul>
-                  <li><a href="#skills">Skills</a></li>
-                  <li><a href="#code-examples">Code Examples</a></li>
-                  <li><a href="#experience">Experience</a></li>
-                  <li><a href="#education">Education</a></li>
-                  <li><a href="#english">English</a></li>
-                  <li><a href="#contacts">Contacts</a></li>
-              </ul>
-          </nav>
-          </div>
+         <div class="header-container"> 
+            <nav>
+                <h1><a href="#about-myself">Ulyana Bychkovskaya</a></h1>
+                <ul>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code-examples">Code Examples</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#english">English</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+         </div>
       </header>
       <main>
           <section class="about-myself" id="about-myself">
-              <img scr="https://github.com/ulyana18/rsschool-cv/blob/rsschool-cv-html/my-photo.jpg" alt="Photo of me">
-              <div class="total-info">
-                  <h2>Ulyana Bychkovskaya</h2>
-                  <article class="my-goal">
-                      <h3>My goal</h3>
-                    <p>Speaking about the nearest future, my goal is to gain knowledge and skills
-                    in The Rolling Scopes course. And, as a result, get a good job. I clearly
-                    understand, that in the IT sphere, as in the others, you need to work hard
-                    to achieve your goal.</p>
-
-                    <p>And....A little about myself. From my point of view, I'm easy-going,
-                     level-headed and ambitious person :)</p>
-                  </article>
-              </div>
+             <div class="about-myself-container">
+                <img src ="./my-photo.jpg" alt="Photo of me" width = "310" height = "405">
+                  <div class="total-info">
+                      <h2>Ulyana Bychkovskaya</h2>
+                      <h4>BSUIR student</h4>
+                      <article class="my-goal">
+                          <h3>What is my goal?</h3>
+                        <p>Speaking about the nearest future, my goal is to gain knowledge and skills
+                        in The Rolling Scopes course. And, as a result, get a good job. I clearly
+                        understand, that in the IT sphere, as in the others, you need to work hard
+                        to achieve your goal.</p>
+                       
+                        <p>And....A little about myself. From my point of view, I'm easy-going,
+                         level-headed and ambitious person :)</p>
+            
+                      </article>
+             </div>
           </section>
           <section class="skills" id="skills">
             <div class="skills-container"><h2>My Skills</h2></div>
@@ -88,14 +92,16 @@
           </section>
       </main>
       <footer id="contacts">
-          <nav>
-              <ul class="contacts">
-                 <li><a href="https://ubychkovskaya20@gmail.com">Email</a></li>
-                 <li><a href="https://github.com/ulyana18">GitHub</a></li>
-                 <li><a href="https://t.me/ulyana1810">Telegram</a></li>
-                 <li><a href="https://vk.com/ulyana___18">VK</a></li>
-              </ul>
-            </nav>
-      </footer>
+          <div class="footer-container">
+             <nav>
+                  <ul class="contacts">
+                     <li><a href="https://ubychkovskaya20@gmail.com">Email</a></li>
+                     <li><a href="https://github.com/ulyana18" class="github">GitHub</a></>
+                     <li><a href="https://t.me/ulyana1810">Telegram</a></li>
+                     <li><a href="https://vk.com/ulyana___18">VK</a></li>
+                  </ul>
+              </nav> 
+           </div>
+     </footer>
     </body>
 </html>
