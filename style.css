@@ -1,0 +1,270 @@
+body {
+  font-size: 0.95em; 
+  font-family: "Nunito", "Raleway", "Arial", sans-serif;
+  background-image: url("./background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #000000;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.header-container,
+main,
+.footer-container {
+  width: 70%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2%; 
+}
+
+body a {
+  color: #5d4d85;
+  text-decoration: none;
+}
+
+body a:visited {
+  color: #5e4e85;
+}
+
+header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 90px; 
+  background-color: hsla(229, 50%, 81%, 0.767);
+  color: #4c3f72;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+header nav li {
+  margin: 0 8px;
+}
+
+header nav a:hover { 
+  text-shadow: 0 0 8px #ffffff;
+  color: #5a4e7e;
+}
+
+header nav h1 a {
+  font-size: 1.7em;
+}
+
+main section {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+main {
+  margin-top: 90px;
+}
+
+main a:hover {
+  color: #ffffff;
+}
+
+.about-myself .about-myself-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(215, 218, 223);
+}
+
+.about-myself .total-info {
+  width: 52%;
+  margin-right: 20px;
+}
+
+.about-myself h2 {
+  margin-top: 18px;
+  margin-bottom: 10px;
+  font-size: 1.6em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-myself h4 {
+  margin-bottom: 30px;
+  font-size: 0.9em;
+  font-weight: thin;
+  text-align: center;
+}
+
+.about-myself .my-goal h3 {
+  margin-bottom: 15px;
+  font-size: 1.25em;
+  text-align: left;
+}
+
+.about-myself .my-goal p {
+  line-height: 2em;
+  text-indent: 20px;
+}
+
+.about-myself .my-goal p:last-child {
+  margin-top: 30px;
+}
+
+main .skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(205, 202, 226);
+}
+
+.skills .skills-container,
+.code-examples .code-examples-container,
+.experience .experience-container,
+.education .education-container,
+.english .english-container {
+  width: 100%;
+  margin-bottom: 40px;
+  border-bottom: 2px solid rgb(228, 227, 235);
+  border-top: 2px solid rgb(228, 227, 235);
+}
+
+.skills h2,
+.code-examples h2,
+.experience h2,
+.education h2,
+.english h2 {
+  margin-bottom: 20px;
+  margin-top: 15px;
+  font-size: 1.5em;
+  font-weight: 550;
+  text-align: center;
+}
+
+
+.skills .skills-list {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.skills .skills-list li {
+  margin-bottom: 20px;
+  line-height: 2em;
+}
+
+main .code-examples {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(192, 192, 216);
+}
+
+.code-examples p {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 2em;
+}
+
+main .experience {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(207, 204, 241);
+}
+
+.experience p {
+  width: 70%;
+  margin: 5px auto 20px auto;
+  text-align: center;
+  line-height: 2em;
+}
+
+main .education {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(232, 222, 243);
+}
+
+.education .education-container {
+  border-bottom: 2px solid rgb(184, 184, 206);
+  border-top: 2px solid rgb(184, 184, 206);
+}
+
+.education p, 
+.education ul {
+  text-align: center;
+  line-height: 2em;
+}
+
+.education ul {
+  margin-bottom: 20px;
+}
+
+.education .education-university {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.education .line {
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-image: url("file:///C:/Users/user/Downloads/lines-png.png");
+  background-size: 170px 200px;
+  background-position: 50% 32%;
+  background-repeat: no-repeat;
+}
+
+.education .education-courses {
+  margin-top: 25px;
+}
+
+main .english {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+  background-color: rgb(216, 213, 213);
+}
+
+.english .english-level {
+  margin-bottom: 25px;
+}
+
+.english p,
+.english ul {
+  text-align: center;
+  line-height: 2em;
+}
+
+.english .english-courses-list {
+  margin-bottom: 35px;
+}
+
+
+footer {
+  height: 120px;
+  width: 100%;
+  background-color: rgb(106, 100, 133);
+}
+
+
+footer .contacts {
+  display: flex;
+  justify-content: space-around;
+  height: 65px;
+  align-items: center;
+}
+
+footer a:hover {
+  color: #9091ca;
+}
